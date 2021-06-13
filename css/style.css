@@ -1,0 +1,97 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #ffff;
+  letter-spacing: 1px;
+  margin-top: 4rem;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #ffff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 4rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.cars-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cars-content-button {
+  margin-top: 5rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: large;
+}
+
+.cars-sedans {
+  background-color: var(--bright-orange);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cars-suvs {
+  background-color: var(--dark-cyan);
+}
+
+.cars-luxury {
+  background-color: var(--very-dark-cyan);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content {
+  width: 60%;
+}
+/*# sourceMappingURL=style.css.map */
